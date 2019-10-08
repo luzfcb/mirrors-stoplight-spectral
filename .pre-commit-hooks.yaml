@@ -1,0 +1,8 @@
+-   id: stoplight/spectral
+    name: stoplight/spectral
+    entry: spectral lint
+    language: node
+    'files': (openapi|swagger)(2|3|)((\.[0-9])|)\.(yaml|json)$
+    args: []
+    require_serial: true
+    additional_dependencies: ["@stoplight/spectral@4.2.0"]
